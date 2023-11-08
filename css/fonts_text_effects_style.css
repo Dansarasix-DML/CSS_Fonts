@@ -1,0 +1,71 @@
+.fonts_text_effects_test1 {
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: clip;
+}
+  
+.fonts_text_effects_test2 {
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.fonts_text_effects_test3 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000000;
+	/* word-wrap: break-word; */
+}
+
+.fonts_text_effects_test4 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+.fonts_text_effects_test5 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-break: keep-all;
+}
+
+.fonts_text_effects_test6 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    word-break: break-all;
+}
+
+.fonts_text_effects_test7 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: horizontal-tb;
+}
+
+.fonts_text_effects_test8 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: vertical-rl;
+}
+
+.fonts_text_effects_test9 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: vertical-lr;
+}
+
+.fonts_text_effects_test10 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: tb;
+}
