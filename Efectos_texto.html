@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TUTORIAL CSS3 - 2023/2024- Diseño de Interfaces Web - CFGS DAW - IES Gran Capitán</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fonts_text_effects_style.css">
+    <link rel="stylesheet" href="css/prism.css">
+    <script src="js/prism.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">TUTORIAL CSS3 - 2023/2024</a></h1>
+        <h2><img src="icon/language-css3.svg"></h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Bordes.html">Bordes</a></li>
+            <li><a href="Fondos.html">Fondos</a></li>
+            <li><a href="Efectos_texto.html">Fuentes y Ef Texto</a></li>   
+            <li><a href="Transformaciones.html">Transformac.</a></li>
+            <li><a href="Transiciones.html">Transiciones</a></li>
+            <li><a href="Animaciones.html">Animaciones</a></li>
+            <li><a href="Col_mult.html">Col Múltiples</a></li>
+            <li><a href="Color.html">Color y Degradado</a></li>
+            <li><a href="Pseudos_Css3.html">Pseudos CSS3</a></li>
+            <li><a href="Svg_filter.html">Filter y SVG</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <h2>TUTORIAL CSS3 - Bordes</h2>
+            <h3>Propiedades para modificar los bordes de los elementos de un documento HTML</h3>
+        </div>
+
+    <section>
+        <article>
+            <h3>color</h3>
+            <p>Propiedad que cambia el color de una fuente.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {color: green;};</code></pre>
+            <p>Admite un valor, que será el color que deseemos ya sea con su nombre/valor hexadecimal/rgb(a)/hsl(a).</p>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test11">Voluptatibus harum culpa a porro en palabra.</p>
+            <p class="fonts_text_effects_test12">Voluptatibus harum culpa a porro en valor hexadecimal.</p>
+            <p class="fonts_text_effects_test13">Voluptatibus harum culpa a porro en rgba.</p>
+            <p class="fonts_text_effects_test14">Voluptatibus harum culpa a porro en hlsa.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test13 {
+    color: rgba(155, 205, 40, 0.75);
+}</code></pre>
+        Aquí tenemos la clase que cambia el texto de color usando rgba para también modificar la transparencia del color que afecta al texto.
+        </article>
+        <article>
+            <h3>background-color</h3>
+            <p>Propiedad que cambia el color de fondo de una fuente.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {background-color: lightgrey;};</code></pre>
+            <p>Admite un valor, que será el color que deseemos ya sea con su nombre/valor hexadecimal/rgb(a)/hsl(a).</p>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test15">Voluptatibus harum culpa a porro en palabra.</p>
+            <p class="fonts_text_effects_test16">Voluptatibus harum culpa a porro en valor hexadecimal.</p>
+            <p class="fonts_text_effects_test17">Voluptatibus harum culpa a porro en rgba.</p>
+            <p class="fonts_text_effects_test18">Voluptatibus harum culpa a porro en hlsa.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test13 {
+    background-color: #159213;
+}</code></pre>
+        Aquí tenemos la clase que cambia el fondo de color usando el valor hexadecimal para también modificar la transparencia del color que afecta al texto.
+        </article>
+        <article>
+            <h3>text-align</h3>
+            <p>Propiedad que cambia la alineación (horizontal) de un texto.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {text-align: valor;};</code></pre>
+            <p>Admite un valor, será la alineación de left (izq->der), right (izq<-der), center y justify.</p>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test19">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex.</p>
+            <p class="fonts_text_effects_test20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
+            <p class="fonts_text_effects_test21">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
+            <p class="fonts_text_effects_test22">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test20 {
+	text-align: right;
+}</code></pre>
+        Aquí tenemos la clase que cambia la alineación del texto a la derecha.
+        </article>
+        <article>
+            <h3>text-align-last</h3>
+            <p>Propiedad que cambia la alineación (horizontal) de la última línea de un texto.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {text-align-last: valor;};</code></pre>
+            <p>Admite un valor, será la alineación de left (izq->der), right (izq<-der), center y justify.</p>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test22 fonts_text_effects_test23" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test23 {
+	text-align-last: center;
+}</code></pre>
+        Aquí tenemos la clase que cambia la alineación de la última línea del texto justificado con la clase anterior.
+        </article>
+        <article>
+            <h3>direction y unicode-bidi</h3>
+            <p>Propiedades que se pueden utilizar para cambiar la dirección del texto.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {
+    direction: valor_direccion;
+    unicode-bidi: valor_bidi;
+};</code></pre>
+            <p>Donde valor_direccion representa la dirección del texto (rtl y ltr) y valor_bidi pondremos bidi-override.</p>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test24" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test24 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}</code></pre>
+        Aquí la clase tiene la dirección rtl lo que hará que el texto se escriba al revés.
+        </article>
+        <article>
+            <h3>text-decoration (line|color|style|thickness)</h3>
+            <p>Propiedades que modifican diferentes propiedades a una línea de decoración.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {text-decoration-propiedad: valor;};</code></pre>
+            <p>Donde propiedad puede tomar estos valores:</p>
+            <ul>
+                <li>line (obligatoria): Posición de la línea.<br/>Algunos valores son:</li>
+                <ul>
+                    <li>none: Elimina la línea.</li>
+                    <li>overline: Línea superior.</li>
+                    <li>line-through: Línea en medio (tachado).</li>
+                    <li>underline: Línea inferior (subrayado).</li>
+                </ul>
+                <li>color (opcional): Color de la línea. Ver valores de colores en el apartado color.</li>
+                <li>style (opcional): Estilo de la línea.<br/>Algunos valores son:</li>
+                <ul>
+                    <li>dashed: Línea de líneas.</li>
+                    <li>dotted: Línea de puntos.</li>
+                    <li>double: Línea doble.</li>
+                    <li>solid: Línea sólida.</li>
+                    <li>wavy: Línea ondulada.</li>
+                </ul>
+                <li>thickness (opcional): Grosor de la línea. Valor númerico (px, rem, etc.) o porcentaje.</li>
+            </ul>
+            Esto se puede juntar de la siguiente forma:
+                <pre class="line-numbers"><code class="language-css">p {text-decoration: posición color estilo grosor;};</code></pre>
+            <h4>Ejemplos:</h4>
+            <p class="fonts_text_effects_test25" >Texto con línea arriba</p>
+            <p class="fonts_text_effects_test26" >Texto con subrayado marrón</p>
+            <p class="fonts_text_effects_test27" >Texto tachado con línea ondulada</p>
+            <p class="fonts_text_effects_test28" >Texto con subrayado grueso</p>
+            <p class="fonts_text_effects_test29" >Texto con una línea con varias propiedades</p>
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test29 {
+    text-decoration: line-through brown wavy 25%;
+}</code></pre>
+        En esta clase usamos text-decoration con todas las propiedades. Este código equivaldría al siguiente:
+        <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test29 {
+    text-decoration-line: line-through;
+	text-decoration-color: brown;
+	text-decoration-style: wavy;
+	text-decoration-thickness: 25%;
+}</code></pre>
+        </article>
+        <article>
+            <h3>text-overflow</h3>
+            <p>Propiedad que indica el contenido desbordado que no se muestra.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {text-overflow: valor;};</code></pre>
+            <p>Admite un valor, que puede ser uno de los siguientes: </p>
+            <ul>
+                <li>clip: Este valor recortará el texto.</li>
+                <li>ellipsis: Este valor sustituirá el texto por una elípsis (...).</li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <p>Texto recortado:</p>
+            <p class="fonts_text_effects_test1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex, excepturi, amet, sequi praesentium fugiat fugit accusamus vel nostrum numquam neque repellat autem.</p>
+            <p>Texto con elípsis:</p>
+            <p class="fonts_text_effects_test2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam repellat earum recusandae ad voluptates necessitatibus alias eaque unde expedita, iste, at quibusdam tenetur quis voluptatibus harum culpa a porro.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="6"><code class="language-css">.fonts_text_effects_test1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}</code></pre>
+		Aquí tenemos una de las clases de los ejemplos anteriores. Usamos overflow: hidden para ocultar el el texto que sobresalga. Al final ponemos text-overflow para indicar que hacer con el overflow, 
+        con "clip" recortamos el texto y con "ellipsis" ponemos el texto con una elípsis que serían los tres puntitos.
+        </article>
+        <article>
+            <h3>word-wrap</h3>
+            <p>Propiedad que divide palabras largas y las ajusta en la siguiente línea.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {word-wrap: break-word;}</code></pre>
+            <p>Y con el valor "break-word" se separará la palabra a la siguiente línea.</p>
+            <h4>Ejemplos:</h4>
+            <p>Texto sin separar:</p>
+            <p class="fonts_text_effects_test3">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+            <p>Texto separado:</p>
+            <p class="fonts_text_effects_test4">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test4 {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}</code></pre>
+		Aquí en esta clase aumentamos la altura y haciendo uso de word-wrap y con el valor break-word pasamos la palabra
+        larga partida a la siguiente línea.
+        </article>
+        <article>
+            <h3>word-break</h3>
+            <p>Propiedad que establece las normas del salto de línea.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {word-break: valor;}</code></pre>
+            <p>Admite un valor, que puede ser uno de los siguientes:</p>
+            <ul>
+                <li>keep-all: Este valor establecerá el salto de línea en los guiones o espacios.</li>
+                <li>break-all: Este valor establecerá el salto de línea en los caractéres.</li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <p>Salto de línea con keep-all (por guiones/espacios):</p>
+            <p class="fonts_text_effects_test5">This paragraph contains some text. This line will-break-at-hyphens.</p>
+            <p>Salto de línea con break-all (por letras):</p>
+            <p class="fonts_text_effects_test6">This paragraph contains some text. The lines will break at any character.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test5 {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #000000;
+    word-break: keep-all;
+}</code></pre>
+		Esta clase utliza word-break con el valor keep-all para establecer el salto de línea en los guiones y espacios.
+        </article>
+        <article>
+            <h3>writing-mode</h3>
+            <p>Propiedad que establece la orientación del texto.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {writing-mode: valor;}</code></pre>
+            <p>Admite un valor, que puede ser uno de los siguientes:</p>
+            <ul>
+                <li>horizontal-tb: Este valor establecerá la orientación de manera horizontal.</li>
+                <li>vertical-rl: Este valor establecerá la orientación de manera vertical (de derecha a izquierda).</li>
+                <li>vertical-lr: Este valor establecerá la orientación de manera vertical (de izquierda a derecha).</li>
+            </ul>
+            Otros valores permitidos son sideways-rl, sideways-lr que pueden servir para textos árabes o hebreos.
+            <h4>Ejemplos:</h4>
+            <p>Texto Horizontal:</p>
+            <p class="fonts_text_effects_test7">This paragraph contains some text. This line will-break-at-hyphens.</p>
+            <p>Texto Vertical (de derecha a izquierda):</p>
+            <p class="fonts_text_effects_test8">This paragraph contains some text. The lines will break at any character.</p>
+            <p>Texto Vertical (de izquierda a derecha):</p>
+            <p class="fonts_text_effects_test9">This paragraph contains some text. The lines will break at any character.</p>
+            <p>Valor tb:</p>
+            <p class="fonts_text_effects_test10">This paragraph contains some text. The lines will break at any character.</p>
+            
+            <h4>Ejemplo de código:</h4>
+            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test9 {
+    width: 150px;
+    height: 100px;
+    border: 1px solid #000000;
+    writing-mode: vertical-lr;
+}</code></pre>
+            En esta clase hemos puesto el modo de escritura de manera vertical y que sea de izquierda a derecha.
+        </article>
+    </section>
+    </main>
+    <footer>
+        <div>Jaime Rabasco Ronda</div>
+        <a href="https://x.com/jaimerr" class="social"><img src="icon/x-twitter.svg" alt="Twitter"></a>
+        <a href="https://github.com/jaimerabasco" class="social"><img src="icon/github.svg" alt="GitHub"></a>
+    </footer>
+</body>
+</html>
