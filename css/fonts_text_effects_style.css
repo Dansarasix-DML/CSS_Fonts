@@ -60,15 +60,15 @@
 	text-shadow: 3px 3px 4px red;
 }
 .fonts_text_effects_test11 {
-	color: blue;
+	text-rendering: optimizeSpeed;
 }
 
 .fonts_text_effects_test12 {
-	color: #159213;
+	text-rendering: optimizeLegibility;
 }
 
 .fonts_text_effects_test13 {
-	color: rgba(155, 205, 40, 0.75);
+	text-rendering: geometricPrecision;
 }
 
 .fonts_text_effects_test14 {
