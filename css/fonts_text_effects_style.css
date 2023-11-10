@@ -59,4 +59,168 @@
 .shadow3{
 	text-shadow: 3px 3px 4px red;
 }
+.fonts_text_effects_test11 {
+	color: blue;
+}
 
+.fonts_text_effects_test12 {
+	color: #159213;
+}
+
+.fonts_text_effects_test13 {
+	color: rgba(155, 205, 40, 0.75);
+}
+
+.fonts_text_effects_test14 {
+	color: hsl(30 100% 50% / 0.6);
+}
+
+.fonts_text_effects_test15 {
+	width: 500px;
+	background-color: blue;
+}
+
+.fonts_text_effects_test16 {
+	width: 500px;
+	background-color: #159213;
+}
+
+.fonts_text_effects_test17 {
+	width: 500px;
+	background-color: rgba(155, 205, 40, 0.75);
+}
+
+.fonts_text_effects_test18 {
+	width: 500px;
+	background-color: hsl(30 100% 50% / 0.6);
+}
+
+.fonts_text_effects_test19 {
+	width: 300px;
+	border: 1px solid #000000;
+	text-align: left;
+}
+
+.fonts_text_effects_test20 {
+	width: 300px;
+	border: 1px solid #000000;
+	text-align: right;
+}
+
+.fonts_text_effects_test21 {
+	width: 300px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.fonts_text_effects_test22 {
+	width: 300px;
+	border: 1px solid #000000;
+	text-align: justify;
+}
+
+.fonts_text_effects_test23 {
+	text-align-last: center;
+}
+
+.fonts_text_effects_test24 {
+	width: 300px;
+	border: 1px solid #000000;
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+.fonts_text_effects_test25 {
+	text-decoration-line: overline;
+}
+
+.fonts_text_effects_test26 {
+	text-decoration-line: underline;
+	text-decoration-color: brown;
+}
+
+.fonts_text_effects_test27 {
+	text-decoration-line: line-through;
+	text-decoration-style: wavy;
+}
+
+.fonts_text_effects_test28 {
+	text-decoration-line: underline;
+	text-decoration-thickness: 25%;
+}
+
+.fonts_text_effects_test29 {
+	text-decoration: line-through brown wavy 25%;
+}
+
+.fonts_text_effects_test1 {
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: clip;
+}
+  
+.fonts_text_effects_test2 {
+	white-space: nowrap;
+	width: 200px;
+	border: 1px solid #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.fonts_text_effects_test3 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000000;
+	/* word-wrap: break-word; */
+}
+
+.fonts_text_effects_test4 {
+	width: 200px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+
+.fonts_text_effects_test5 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-break: keep-all;
+}
+
+.fonts_text_effects_test6 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    word-break: break-all;
+}
+
+.fonts_text_effects_test7 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: horizontal-tb;
+}
+
+.fonts_text_effects_test8 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: vertical-rl;
+}
+
+.fonts_text_effects_test9 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: vertical-lr;
+}
+
+.fonts_text_effects_test10 {
+	width: 150px;
+	height: 100px;
+	border: 1px solid #000000;
+    writing-mode: tb;
+}
