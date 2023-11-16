@@ -15,7 +15,13 @@
 }
 
 .negrita{
-	font-weight: bold;
+	font-weight:bold;
+}
+.bolder{
+	font-weight:bolder;
+}
+.lighter{
+	font-weight:lighter;
 }
 .small-caps{
 	font-variant: small-caps;
@@ -180,7 +186,7 @@
 	width: 200px;
 	height: 100px;
 	border: 1px solid #000000;
-	word-wrap: break-word;
+	overflow-wrap: break-word;
 }
 
 .fonts_text_effects_test5 {
