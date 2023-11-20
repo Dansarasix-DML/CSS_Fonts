@@ -1,3 +1,12 @@
+:root{
+	--accent_color: #ff4400;
+}
+
+.valor{
+	color: var(--accent_color);
+	font-weight:bold;
+}
+
 .roman{
 	font-family: 'Times New Roman', Times, serif;
 }
@@ -78,17 +87,23 @@
 }
 
 .fonts_text_effects_test14 {
-	color: hsl(30 100% 50% / 0.6);
+	width: 200px;
+	height: 224px;
+	border: 1px solid #000000;
+	writing-mode: vertical-lr;
+	text-orientation: upright;
 }
 
 .fonts_text_effects_test15 {
-	width: 500px;
-	background-color: blue;
+	-webkit-text-fill-color: #1aff00;
 }
 
 .fonts_text_effects_test16 {
-	width: 500px;
-	background-color: #159213;
+	width: 200px;
+	height: 224px;
+	border: 1px solid #000000;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
 }
 
 .fonts_text_effects_test17 {

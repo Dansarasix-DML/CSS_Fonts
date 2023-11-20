@@ -47,7 +47,7 @@
     direction: rtl;
     unicode-bidi: bidi-override;
 };</code></pre>
-            <p>Donde valor_direccion representa la dirección del texto (rtl y ltr) y valor_bidi pondremos bidi-override.</p>
+            <p>Donde <span class="valor">direction</span> representa la dirección del texto (rtl y ltr) y <span class="valor">unicode_bidi</span> pondremos bidi-override.</p>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test24 {
     width: 300px;
@@ -68,21 +68,21 @@
             <ul>
                 <li>line (obligatoria): Posición de la línea.<br/>Algunos valores son:</li>
                 <ul>
-                    <li>none: Elimina la línea.</li>
-                    <li>overline: Línea superior.</li>
-                    <li>line-through: Línea en medio (tachado).</li>
-                    <li>underline: Línea inferior (subrayado).</li>
+                    <li><span class="valor">none</span>: Elimina la línea.</li>
+                    <li><span class="valor">overline</span>: Línea superior.</li>
+                    <li><span class="valor">line-through</span>: Línea en medio (tachado).</li>
+                    <li><span class="valor">underline</span>: Línea inferior (subrayado).</li>
                 </ul>
-                <li>color (opcional): Color de la línea. Ver valores de colores en el apartado color.</li>
+                <li>color (opcional): Color de la línea. Puede ser en <span class="valor">palabra, valor hexadecimal o rgb(a)</span>.</li>
                 <li>style (opcional): Estilo de la línea.<br/>Algunos valores son:</li>
                 <ul>
-                    <li>dashed: Línea de líneas.</li>
-                    <li>dotted: Línea de puntos.</li>
-                    <li>double: Línea doble.</li>
-                    <li>solid: Línea sólida.</li>
-                    <li>wavy: Línea ondulada.</li>
+                    <li><span class="valor">dashed</span>: Línea de líneas.</li>
+                    <li><span class="valor">dotted</span>: Línea de puntos.</li>
+                    <li><span class="valor">double</span>: Línea doble.</li>
+                    <li><span class="valor">solid</span>: Línea sólida.</li>
+                    <li><span class="valor">wavy</span>: Línea ondulada.</li>
                 </ul>
-                <li>thickness (opcional): Grosor de la línea. Valor númerico (px, rem, etc.) o porcentaje.</li>
+                <li>thickness (opcional): Grosor de la línea. <span class="valor">Valor númerico (px, rem, etc.) o porcentaje</span>.</li>
             </ul>
             Esto se puede juntar de la siguiente forma:
                 <pre class="line-numbers"><code class="language-css">p {text-decoration: line-through brown wavy 25%;};</code></pre>
@@ -125,9 +125,9 @@
             <pre class="line-numbers"><code class="language-css">text-transform: uppercase;</code></pre>
             <p>Admite tres opciones: </p>
             <ul>
-                <li>uppercase: Todo el texto esta en mayuscula.</li>
-                <li>lowercase: Todo el texto esta en minuscula.</li>
-                <li>capitalize: La primera letra de cada palabra del texto esta en mayuscula</li>
+                <li><span class="valor">uppercase</span>: Todo el texto esta en mayuscula.</li>
+                <li><span class="valor">lowercase</span>: Todo el texto esta en minuscula.</li>
+                <li><span class="valor">capitalize</span>: La primera letra de cada palabra del texto esta en mayuscula</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.mayuscula{
@@ -150,7 +150,7 @@
             <pre class="line-numbers"><code class="language-css">text-indent: 100px;</code></pre>
             <p>Admite un unico valor: </p>
             <ul>
-                <li>Px: Se indica el valor de la indentacion en pixeles.</li>
+                <li><span class="valor">Px</span>: Se indica el valor de la indentacion en pixeles.</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.indentado{
@@ -165,7 +165,7 @@
             <pre class="line-numbers"><code class="language-css">letter-spacing: 10px;</code></pre>
             <p>Admite un unico valor: </p>
             <ul>
-                <li>Px: Indica el espacio entre caracteres en pixeles.</li>
+                <li><span class="valor">Px</span>: Indica el espacio entre caracteres en pixeles.</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.espaciado{
@@ -178,10 +178,7 @@
             <p>Indica el espacion entre lineas.</p>
             <h4>Sintaxis</h4>
             <pre class="line-numbers"><code class="language-css">line-height: 5;</code></pre>
-            <p>Admite un unico valor: </p>
-            <ul>
-                <li>Un valor: Se indica el valor numerico del espacio entre lineas.</li>
-            </ul>
+            <p>Admite un unico valor que es <span class="valor">valor numerico</span> del espacio entre lineas.</p>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.linea{
     line-height: 3;
@@ -195,7 +192,7 @@
             <pre class="line-numbers"><code class="language-css">word-spacing: 10px;</code></pre>
             <p>Admite un unico valor:</p>
             <ul>
-                <li>Px: Indica el valor del espaciado en px.</li>
+                <li><span class="valor">Px</span>: Indica el valor del espaciado en px.</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.palabra{
@@ -210,9 +207,9 @@
             <pre class="line-numbers"><code class="language-css">text-shadow: 3px 3px red;</code></pre>
             <p>Admite de dos a cuatro valores, que son los siguientes: </p>
             <ul>
-                <li>Dos valores. se aplica el primero al sombreado horizontal y el segundo al sombreado vertical</li>
-                <li>Tres valores: El primer valor se aplica al sombreado horizontal, el segundo al sombreado vertical y el tercer valor al color que tiene el shadow</li>
-                <li>Cuatro valores: El primer valor se aplica al sombreado horizontal, el segundo al sombreado vertical, el tercero añade un efecto y el ultimo valor indica el color</li>
+                <li><span class="valor">Dos valores</span>: Se aplica el primero al sombreado horizontal y el segundo al sombreado vertical</li>
+                <li><span class="valor">Tres valores</span>: El primer valor se aplica al sombreado horizontal, el segundo al sombreado vertical y el tercer valor al color que tiene el shadow</li>
+                <li><span class="valor">Cuatro valores</span>: El primer valor se aplica al sombreado horizontal, el segundo al sombreado vertical, el tercero añade un efecto y el ultimo valor indica el color</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.shadow1{
@@ -235,8 +232,8 @@
             <pre class="line-numbers"><code class="language-css">p {text-overflow: clip;};</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes: </p>
             <ul>
-                <li>clip: Este valor recortará el texto.</li>
-                <li>ellipsis: Este valor sustituirá el texto por una elípsis (...).</li>
+                <li><span class="valor">clip</span>: Este valor recortará el texto.</li>
+                <li><span class="valor">ellipsis</span>: Este valor sustituirá el texto por una elípsis (...).</li>
             </ul>
             <h4>Ejemplos:</h4>
             <p>Texto recortado:</p>
@@ -265,7 +262,7 @@
             <p>Propiedad que divide palabras largas y las ajusta en la siguiente línea.</p>
             <h4>Sintaxis</h4>
             <pre class="line-numbers"><code class="language-css">p {overflow-wrap: break-word;}</code></pre>
-            <p>Y con el valor "break-word" se separará la palabra a la siguiente línea.</p>
+            <p>Y con el valor <span class="valor">"break-word"</span> se separará la palabra a la siguiente línea.</p>
             <h4>Ejemplos:</h4>
             <p>Texto separado:</p>
             <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test4 {
@@ -275,9 +272,8 @@
     overflow-wrap: break-word;
 }</code></pre>
             <p class="fonts_text_effects_test4">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
-            
-            Aquí en esta clase aumentamos la altura y haciendo uso de word-wrap y con el valor break-word pasamos la palabra
-            larga partida a la siguiente línea.
+            <p>Aquí en esta clase aumentamos la altura y haciendo uso de oveflow-wrap y con el valor break-word pasamos la palabra
+            larga partida a la siguiente línea.</p>
         </article>
         <article>
             <h3>word-break</h3>
@@ -286,8 +282,8 @@
             <pre class="line-numbers"><code class="language-css">p {word-break: keep-all;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
-                <li>keep-all: Este valor establecerá el salto de línea en los guiones o espacios.</li>
-                <li>break-all: Este valor establecerá el salto de línea en los caractéres.</li>
+                <li><span class="valor">keep-all</span>: Este valor establecerá el salto de línea en los guiones o espacios.</li>
+                <li><span class="valor">break-all</span>: Este valor establecerá el salto de línea en los caractéres.</li>
             </ul>
             <h4>Ejemplos:</h4>
             <p>Salto de línea con keep-all (por guiones/espacios):</p>
@@ -316,11 +312,11 @@
             <pre class="line-numbers"><code class="language-css">p {writing-mode: horizontal-tb;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
-                <li>horizontal-tb: Este valor establecerá la orientación de manera horizontal.</li>
-                <li>vertical-rl: Este valor establecerá la orientación de manera vertical (de derecha a izquierda).</li>
-                <li>vertical-lr: Este valor establecerá la orientación de manera vertical (de izquierda a derecha).</li>
+                <li><span class="valor">horizontal-tb</span>: Este valor establecerá la orientación de manera horizontal.</li>
+                <li><span class="valor">vertical-rl</span>: Este valor establecerá la orientación de manera vertical (de derecha a izquierda).</li>
+                <li><span class="valor">vertical-lr</span>: Este valor establecerá la orientación de manera vertical (de izquierda a derecha).</li>
             </ul>
-            Otros valores permitidos son sideways-rl, sideways-lr que pueden servir para textos árabes o hebreos.
+            Otros valores permitidos son <span class="valor">sideways-rl, sideways-lr</span> que pueden servir para textos árabes o hebreos.
             <h4>Ejemplos:</h4>
             <p>Texto Horizontal:</p>
             <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test7 {
@@ -354,8 +350,7 @@
     border: 1px solid #000000;
     writing-mode: tb;
 }</code></pre>
-            <p class="fonts_text_effects_test10">This paragraph contains some text. The lines will break at any character.</p>
-            
+            <p class="fonts_text_effects_test10">This paragraph contains some text. The lines will break at any character.</p>  
         </article>
         <article>
             <h3>text-rendering</h3>
@@ -365,9 +360,9 @@
             <pre class="line-numbers"><code class="language-css">p {text-rendering: optimizeLegibility;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
-                <li>optimizeSpeed: Se centra en la velocidad de renderización, sacrificando la calidad visual.</li>
-                <li>optimizeLegibility: Se centra en la legibilidad del texto, incluso a expensas de la velocidad.</li>
-                <li>geometricPrecision: Se centra en renderizar el texto con precisión geométrica (Útil con gráficos vectoriales).</li>
+                <li><span class="valor">optimizeSpeed</span>: Se centra en la velocidad de renderización, sacrificando la calidad visual.</li>
+                <li><span class="valor">optimizeLegibility</span>: Se centra en la legibilidad del texto, incluso a expensas de la velocidad.</li>
+                <li><span class="valor">geometricPrecision</span>: Se centra en renderizar el texto con precisión geométrica (Útil con gráficos vectoriales).</li>
             </ul>
             <h4>Ejemplos:</h4>
             <p>Velocidad optimizada:</p>
@@ -387,6 +382,44 @@
             <p class="fonts_text_effects_test13">Voluptatibus harum culpa a porro.</p>
             <p>En esta clase hemos colocado la renderización a "Precisión geométrica" aunque no hay mucha diferencia debido
             a que es un texto normal y no uno vectorial.</p>
+        </article>
+        <article>
+            <h3>text-orientation</h3>
+            <p>Propiedad que se utiliza para establecer la orientación del texto en un elemento. 
+            Puede definir si el texto se mostrará horizontal o verticalmente, y en qué dirección.
+            Solo funciona si el writing-mode está puesto como texto vertical.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {text-orientation: upright;}</code></pre>
+            <p>Admite un valor, que puede ser uno de los siguientes:</p>
+            <ul>
+                <li><span class="valor">mixed</span>: Este valor indica que la orientación del texto es mixta, lo que significa que puede contener tanto texto vertical como horizontal.</li>
+                <li><span class="valor">upright</span>: Este valor se utiliza para especificar que el texto debe mostrarse en posición vertical.</li>
+                <li><span class="valor">sideways</span>: Indica que el texto debe mostrarse en posición horizontal, pero con la letra en posición vertical.</li>
+                <li><span class="valor">sideways-right</span>: Similar a sideways, pero la orientación de la letra es hacia la derecha(izquierda).</li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <p>Texto en posición vertical:</p>
+            <pre class="line-numbers" data-line="6"><code class="language-css">.fonts_text_effects_test14 {
+    width: 200px;
+    height: 224px;
+    border: 1px solid #000000;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}</code></pre>
+            <p class="fonts_text_effects_test14">Voluptatibus harum culpa a porro.</p>
+        </article>
+        <article>
+            <h3>-webkit-text-fill-color</h3>
+            <p>Propiedad que establece el color de relleno del texto. 
+            Es importante tener en cuenta que no todos los navegadores admiten esta propiedad.</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">p {-webkit-text-fill-color: #3498db;}</code></pre>
+            <p>Admite un valor, que puede ser <span class="valor">el nombre del color, su valor hexadecimal o rgb(a)</span></p>
+            <h4>Ejemplos:</h4>
+            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test15 {
+    -webkit-text-fill-color: #1aff00;
+}</code></pre>
+            <p class="fonts_text_effects_test15">Voluptatibus harum culpa a porro.</p>
         </article>
         <article>
             <h3>Font-Family</h3>
@@ -411,9 +444,9 @@
             <pre class="line-numbers"><code class="language-css">font-style: Normal;</code></pre>
             <p>Hay tres tipos de letras :</p>
             <ul>
-                <li>Normal: Letra normal sin ninguna modificación.</li>
-                <li>Italic: Letra italica</li>
-                <li>Oblique: Similar a italica </li>
+                <li><span class="valor">Normal</span>: Letra normal sin ninguna modificación.</li>
+                <li><span class="valor">Italic</span>: Letra italica</li>
+                <li><span class="valor">Oblique</span>: Similar a italica </li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.normal{
@@ -434,12 +467,12 @@
             <p>Indica la forma de la letra</p>
             <h4>Sintaxis</h4>
             <pre class="line-numbers"><code class="language-css">font-weight: Normal;</code></pre>
-            <p>Admite 2 opciones: </p>
+            <p>Admite estas opciones: </p>
             <ul>
-                <li>Normal: La letra se ve normal</li>
-                <li>Bold: La letra se ve en negrita</li>
-                <li>Bolder: La letra se ve más negrita de lo normal</li>
-                <li>Bold: La letra se ve muy fina</li>
+                <li><span class="valor">Normal</span>: La letra se ve normal</li>
+                <li><span class="valor">Bold</span>: La letra se ve en negrita</li>
+                <li><span class="valor">Bolder</span>: La letra se ve más negrita de lo normal</li>
+                <li><span class="valor">Lighter</span>: La letra se ve muy fina</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.negrita{
@@ -462,8 +495,8 @@
             <pre class="line-numbers"><code class="language-css">font-variant: Normal;</code></pre>
             <p>Admite dos opciones: </p>
             <ul>
-                <li>Normal: No se aplica small-caps.</li>
-                <li>Small-caps: Se aplica el formato small-caps</li>
+                <li><span class="valor">Normal</span>: No se aplica small-caps.</li>
+                <li><span class="valor">Small-caps</span>: Se aplica el formato small-caps</li>
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.small-caps{
@@ -478,9 +511,9 @@
             <pre class="line-numbers"><code class="language-css">font-size: 10em;</code></pre>
             <p>Admite tres opciones: </p>
             <ul>
-                <li>Px: Se aplica el valor en pixeles.</li>
-                <li>Em: Se aplica el valor en em(1em equivale a 16px)</li>
-                <li>%: Se aplica el valor en porcentaje(aumenta el tamaño al porcentaje indicado con respecto al contenedor al que se aplique)
+                <li><span class="valor">Px</span>: Se aplica el valor en pixeles.</li>
+                <li><span class="valor">Em</span>: Se aplica el valor en em(1em equivale a 16px)</li>
+                <li><span class="valor">%</span>: Se aplica el valor en porcentaje(aumenta el tamaño al porcentaje indicado con respecto al contenedor al que se aplique)
             </ul>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers"><code class="language-css">.pixeles{
