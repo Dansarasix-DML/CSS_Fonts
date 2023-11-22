@@ -165,13 +165,6 @@
 	text-align-last: center;
 }
 
-.fonts_text_effects_test24 {
-	width: 300px;
-	border: 1px solid #000000;
-	direction: rtl;
-	unicode-bidi: bidi-override;
-}
-
 .fonts_text_effects_test25 {
 	text-decoration-line: overline;
 }
