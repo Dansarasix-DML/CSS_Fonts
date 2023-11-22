@@ -1,9 +1,4 @@
-:root{
-	--accent_color: #ff4400;
-}
-
 .valor{
-	color: var(--accent_color);
 	font-weight:bold;
 }
 
