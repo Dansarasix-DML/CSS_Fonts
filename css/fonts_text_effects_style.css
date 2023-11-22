@@ -1,7 +1,33 @@
 .valor{
 	font-weight:bold;
 }
-
+.none{
+	font-size-adjust: none;
+}
+.adjust{
+	font-size-adjust: 0.58;
+}
+.condensado{
+	width: 150px;
+	font-stretch: condensed;
+}
+.expandido{
+	width: 150px;
+	font-stretch: expanded;
+}
+.stretch{
+	width: 150px;
+	font-stretch: 50%;
+}
+.automatico{
+	font-kerning: auto;
+}
+.kerning{
+	font-kerning: normal;
+}
+.kerning2{
+	font-kerning: none;
+}
 .roman{
 	font-family: 'Times New Roman', Times, serif;
 }

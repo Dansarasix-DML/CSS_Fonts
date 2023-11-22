@@ -43,18 +43,18 @@
             <h3>direction y unicode-bidi</h3>
             <p>Propiedades que se pueden utilizar para cambiar la dirección del texto.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {
+            <pre class="line-numbers"><code class="language-css">
     direction: rtl;
     unicode-bidi: bidi-override;
-};</code></pre>
+</code></pre>
             <p>Donde <span class="valor">direction</span> representa la dirección del texto (rtl y ltr) y <span class="valor">unicode_bidi</span> pondremos bidi-override.</p>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers" data-line="4"><code class="language-css">.fonts_text_effects_test24 {
+            <pre class="line-numbers" data-line="4"><code class="language-css">
     width: 300px;
     border: 1px solid #000000;
     direction: rtl;
     unicode-bidi: bidi-override;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test24" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex</p>
         </article>
         <article>
@@ -63,12 +63,12 @@
             Se puede aplicar diferentes tipos de decoración, como subrayado, tachado, 
             línea sobre el texto, etc.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {
+            <pre class="line-numbers"><code class="language-css">
     text-decoration-line: line-through;
     text-decoration-color: brown;
     text-decoration-style: wavy;
     text-decoration-thickness: 25%;
-};</code></pre>
+</code></pre>
             <p>Donde pueden haber estos valores:</p>
             <ul>
                 <li>line (obligatoria): Posición de la línea.<br/>Algunos valores son:</li>
@@ -92,36 +92,36 @@
             Esto se puede juntar de la siguiente forma:
                 <pre class="line-numbers"><code class="language-css">p {text-decoration: line-through brown wavy 25%;};</code></pre>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test25 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration-line: overline;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test25" >Texto con línea arriba</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test26 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration-line: underline;
     text-decoration-color: brown;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test26" >Texto con subrayado marrón</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test27 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration-line: line-through;
     text-decoration-style: wavy;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test27" >Texto tachado con línea ondulada</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test28 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration-line: underline;
     text-decoration-thickness: 25%;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test28" >Texto con subrayado grueso</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test29 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration: line-through brown wavy 25%;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test29" >Texto con una línea con varias propiedades</p>
             En esta clase usamos text-decoration con todas las propiedades. Este código equivaldría al siguiente:
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test29 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-decoration-line: line-through;
 	text-decoration-color: brown;
 	text-decoration-style: wavy;
 	text-decoration-thickness: 25%;
-}</code></pre>
+</code></pre>
         </article>
         <article>
             <h3>text-transform</h3>
@@ -135,17 +135,17 @@
                 <li><span class="valor">capitalize</span>: La primera letra de cada palabra del texto esta en mayuscula</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.mayuscula{
+            <pre class="line-numbers"><code class="language-css">
     text-transform: uppercase;
-}</code></pre>
+</code></pre>
             <p class="mayuscula">texto en mayuscula</p>
-            <pre class="line-numbers"><code class="language-css">.minuscula{
+            <pre class="line-numbers"><code class="language-css">
     text-transform: lowercase;
-}</code></pre>
+</code></pre>
             <p class="minuscula">texto en minuscula</p>
-            <pre class="line-numbers"><code class="language-css">.capital{
+            <pre class="line-numbers"><code class="language-css">
     text-transform: capitalize;
-}</code></pre>
+</code></pre>
             <p class="capital">texto en capital</p>
         </article>
         <article>
@@ -158,9 +158,9 @@
                 <li><span class="valor">Px</span>: Se indica el valor de la indentacion en pixeles.</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.indentado{
+            <pre class="line-numbers"><code class="language-css">
     text-indent: 50px;
-}</code></pre>
+</code></pre>
             <p class="indentado">texto indentado</p>
         </article>
         <article>
@@ -173,9 +173,9 @@
                 <li><span class="valor">Px</span>: Indica el espacio entre caracteres en pixeles.</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.espaciado{
+            <pre class="line-numbers"><code class="language-css">
     letter-spacing: 5px;
-};</code></pre>
+</code></pre>
             <p class="espaciado">Texto con espaciado entre caracteres</p>
         </article>
         <article>
@@ -185,9 +185,9 @@
             <pre class="line-numbers"><code class="language-css">line-height: 5;</code></pre>
             <p>Admite un unico valor que es <span class="valor">valor numerico</span> del espacio entre lineas.</p>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.linea{
+            <pre class="line-numbers"><code class="language-css">
     line-height: 3;
-}</code></pre>
+</code></pre>
             <p class="linea">texto con espacio entre lineas</p>
         </article>
         <article>
@@ -200,9 +200,9 @@
                 <li><span class="valor">Px</span>: Indica el valor del espaciado en px.</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.palabra{
+            <pre class="line-numbers"><code class="language-css">
     word-spacing: 5px;
-}</code></pre>
+</code></pre>
             <p class="palabra">Texto con espaciado</p>
         </article>
         <article>
@@ -217,17 +217,17 @@
                 <li><span class="valor">Cuatro valores</span>: El primer valor se aplica al sombreado horizontal, el segundo al sombreado vertical, el tercero añade un efecto y el ultimo valor indica el color</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.shadow1{
+            <pre class="line-numbers"><code class="language-css">
     text-shadow: 3px 3px;
-}</code></pre>
+</code></pre>
             <p class="shadow1">Text-shadow1</p>
-            <pre class="line-numbers"><code class="language-css">.shadow2{
+            <pre class="line-numbers"><code class="language-css">
     text-shadow: 3px 3px red;
-}</code></pre>
+</code></pre>
             <p class="shadow2">Text-shadow2</p>
-            <pre class="line-numbers"><code class="language-css">.shadow3{
+            <pre class="line-numbers"><code class="language-css">
     text-shadow: 3px 3px 4px red;
-}</code></pre>
+</code></pre>
             <p class="shadow3">Text-shadow3</p>
         </article>
         <article>
@@ -242,24 +242,24 @@
             </ul>
             <h4>Ejemplos:</h4>
             <p>Texto recortado:</p>
-            <pre class="line-numbers" data-line="6"><code class="language-css">.fonts_text_effects_test1 {
+            <pre class="line-numbers" data-line="6"><code class="language-css">
     white-space: nowrap;
     width: 200px;
     border: 1px solid #000000;
     overflow: hidden;
     text-overflow: clip;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae velit laudantium adipisci esse voluptates deserunt eum ex, excepturi, amet, sequi praesentium fugiat fugit accusamus vel nostrum numquam neque repellat autem.</p>
             Aquí tenemos una de las clases de los ejemplos anteriores. Usamos overflow: hidden para ocultar el el texto que sobresalga. Al final ponemos text-overflow para indicar que hacer con el overflow, 
             con "clip" recortamos el texto y con "ellipsis" ponemos el texto con una elípsis que serían los tres puntitos.
             <p>Texto con elípsis:</p>
-            <pre class="line-numbers" data-line="6"><code class="language-css">.fonts_text_effects_test2 {
+            <pre class="line-numbers" data-line="6"><code class="language-css">
     white-space: nowrap;
     width: 200px;
     border: 1px solid #000000;
     overflow: hidden;
     text-overflow: ellipsis;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quisquam repellat earum recusandae ad voluptates necessitatibus alias eaque unde expedita, iste, at quibusdam tenetur quis voluptatibus harum culpa a porro.</p>
         </article>
         <article>
@@ -270,12 +270,12 @@
             <p>Y con el valor <span class="valor">"break-word"</span> se separará la palabra a la siguiente línea.</p>
             <h4>Ejemplos:</h4>
             <p>Texto separado:</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test4 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 200px;
     height: 100px;
     border: 1px solid #000000;
     overflow-wrap: break-word;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test4">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
             <p>Aquí en esta clase aumentamos la altura y haciendo uso de oveflow-wrap y con el valor break-word pasamos la palabra
             larga partida a la siguiente línea.</p>
@@ -292,21 +292,21 @@
             </ul>
             <h4>Ejemplos:</h4>
             <p>Salto de línea con keep-all (por guiones/espacios):</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test5 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     word-break: keep-all;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test5">This paragraph contains some text. This line will-break-at-hyphens.</p>
 		    Esta clase utliza word-break con el valor keep-all para establecer el salto de línea en los guiones y espacios.
             <p>Salto de línea con break-all (por letras):</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test6 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     word-break: break-all;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test6">This paragraph contains some text. The lines will break at any character.</p>
             
         </article>
@@ -324,37 +324,37 @@
             Otros valores permitidos son <span class="valor">sideways-rl, sideways-lr</span> que pueden servir para textos árabes o hebreos.
             <h4>Ejemplos:</h4>
             <p>Texto Horizontal:</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test7 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     writing-mode: horizontal-tb;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test7">This paragraph contains some text. This line will-break-at-hyphens.</p>
             <p>Texto Vertical (de derecha a izquierda):</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test8 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     writing-mode: vertical-rl;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test8">This paragraph contains some text. The lines will break at any character.</p>
             <p>Texto Vertical (de izquierda a derecha):</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test9 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     writing-mode: vertical-lr;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test9">This paragraph contains some text. The lines will break at any character.</p>
             <p>En esta clase hemos puesto el modo de escritura de manera vertical y que sea de izquierda a derecha.</p>
             <p>Valor tb:</p>
-            <pre class="line-numbers" data-line="5"><code class="language-css">.fonts_text_effects_test10 {
+            <pre class="line-numbers" data-line="5"><code class="language-css">
     width: 150px;
     height: 100px;
     border: 1px solid #000000;
     writing-mode: tb;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test10">This paragraph contains some text. The lines will break at any character.</p>  
         </article>
         <article>
@@ -371,19 +371,19 @@
             </ul>
             <h4>Ejemplos:</h4>
             <p>Velocidad optimizada:</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test11 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-rendering: optimizeSpeed;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test11">Voluptatibus harum culpa a porro.</p>
             <p>Legibilidad optimizada:</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test12 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-rendering: optimizeLegibility;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test12">Voluptatibus harum culpa a porro.</p>
             <p>Precisión geométrica:</p>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test13 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     text-rendering: geometricPrecision;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test13">Voluptatibus harum culpa a porro.</p>
             <p>En esta clase hemos colocado la renderización a "Precisión geométrica" aunque no hay mucha diferencia debido
             a que es un texto normal y no uno vectorial.</p>
@@ -404,13 +404,13 @@
             </ul>
             <h4>Ejemplos:</h4>
             <p>Texto en posición vertical:</p>
-            <pre class="line-numbers" data-line="6"><code class="language-css">.fonts_text_effects_test14 {
+            <pre class="line-numbers" data-line="6"><code class="language-css">
     width: 200px;
     height: 224px;
     border: 1px solid #000000;
     writing-mode: vertical-lr;
     text-orientation: upright;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test14">Voluptatibus harum culpa a porro.</p>
         </article>
         <article>
@@ -421,32 +421,32 @@
             <pre class="line-numbers"><code class="language-css">p {-webkit-text-fill-color: black|#000000|rgb(0,0,0);}</code></pre>
             <p>Admite un valor, que puede ser <span class="valor">el nombre del color, su valor hexadecimal o rgb(a)</span></p>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test15 {
+            <pre class="line-numbers" data-line="2"><code class="language-css">
     -webkit-text-fill-color: #1aff00;
-}</code></pre>
+</code></pre>
             <p class="fonts_text_effects_test15">Voluptatibus harum culpa a porro.</p>
         </article>
         <article>
             <h3>Font-Family</h3>
             <p>Generalmente utilizamos Font-Family para elegir la fuente del texto</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">font-family: Times new Roman;</code></pre>
+            <pre class="line-numbers"><code class="language-css">font-family: family-name|generic-family|initial|inherit;</code></pre>
             <p>Admite un unico valor, el cual cambia la fuente del texto de la etiqueta a la que se le asigne</p>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers" data-line="1"><code class="language-css">.roman{
-    font-family: 'Times New Roman', Times, serif;
-}</code></pre>
+            <pre class="line-numbers" data-line="1"><code class="language-css">
+    font-family: 'Times New Roman';
+</code></pre>
             <p class="roman">Times new Roman</p>
-            <pre class="line-numbers" data-line="1"><code class="language-css">.arial{
-    font-family: Arial, Helvetica, sans-serif;
-}</code></pre>
+            <pre class="line-numbers" data-line="1"><code class="language-css">
+    font-family: Arial,;
+</code></pre>
             <p class="arial">Arial</p>
         </article>
         <article>
             <h3>Font-style</h3>
             <p>Indica el tipo de letra del texto.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">font-style: Normal;</code></pre>
+            <pre class="line-numbers"><code class="language-css">font-style: normal|italic|oblique|initial|inherit;</code></pre>
             <p>Hay tres tipos de letras :</p>
             <ul>
                 <li><span class="valor">Normal</span>: Letra normal sin ninguna modificación.</li>
@@ -454,43 +454,44 @@
                 <li><span class="valor">Oblique</span>: Similar a italica </li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.normal{
+            <pre class="line-numbers"><code class="language-css">
     font-style: normal;
-}</code></pre></code></pre>
+</code></pre></code></pre>
             <p class="normal">Letra Normal</p>
-            <pre class="line-numbers"><code class="language-css">.italic{
+            <pre class="line-numbers"><code class="language-css">
     font-style: italic;
-}</code></pre></code></pre>
+</code></pre></code></pre>
             <p class="italic">Letra italica</p>
-            <pre class="line-numbers"><code class="language-css">.oblique{
+            <pre class="line-numbers"><code class="language-css">
     font-style: oblique;
-}</code></pre></code></pre>
+</code></pre></code></pre>
             <p class="oblique">Letra oblique</p>
         </article>
         <article>
             <h3>font-weight</h3>
             <p>Indica la forma de la letra</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">font-weight: Normal;</code></pre>
+            <pre class="line-numbers"><code class="language-css">font-weight: Normal|Bold|Bolder|Lighter;</code></pre>
             <p>Admite estas opciones: </p>
             <ul>
+                <li><span class="valor">Numero</span>: El valor se introduce numerico. Desde 100 a 600 la letra se veria normal. A partir de 700 se veria en negrita</li>
                 <li><span class="valor">Normal</span>: La letra se ve normal</li>
                 <li><span class="valor">Bold</span>: La letra se ve en negrita</li>
                 <li><span class="valor">Bolder</span>: La letra se ve más negrita de lo normal</li>
                 <li><span class="valor">Lighter</span>: La letra se ve muy fina</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.negrita{
+            <pre class="line-numbers"><code class="language-css">
     font-weight: bold;
-}</code></pre>
+</code></pre>
             <p class="negrita">negrita</p>
-            <pre class="line-numbers"><code class="language-css">.bolder{
+            <pre class="line-numbers"><code class="language-css">
     font-weight:bolder;
-}</code></pre>
+</code></pre>
             <p class="bolder">bolder</p>
-            <pre class="line-numbers"><code class="language-css">.lighter{
+            <pre class="line-numbers"><code class="language-css">
     font-weight:lighter;
-}</code></pre>
+</code></pre>
             <p class="lighter">lighter</p>
         </article>
         <article>
@@ -504,9 +505,9 @@
                 <li><span class="valor">Small-caps</span>: Se aplica el formato small-caps</li>
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.small-caps{
+            <pre class="line-numbers"><code class="language-css">
     font-variant: small-caps;
-}</code></pre>
+</code></pre>
             <p class="small-caps">small-caps</p>
         </article>
         <article>
@@ -521,18 +522,89 @@
                 <li><span class="valor">%</span>: Se aplica el valor en porcentaje(aumenta el tamaño al porcentaje indicado con respecto al contenedor al que se aplique)
             </ul>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers"><code class="language-css">.pixeles{
+            <pre class="line-numbers"><code class="language-css">
     font-size: 20px;
-}</code></pre>
+</code></pre>
             <p class="pixeles">20 pixeles</p>
-            <pre class="line-numbers"><code class="language-css">.em{
+            <pre class="line-numbers"><code class="language-css">
     font-size: 1em;
-}</code></pre>
+</code></pre>
             <p class="em">1 em</p>
-            <pre class="line-numbers"><code class="language-css">.porcentaje{
+            <pre class="line-numbers"><code class="language-css">
     font-size: 50%;
-}</code></pre>
+</code></pre>
             <p class="porcentaje">50%</p>
+        </article>
+        <article>
+            <h3>font-stretch</h3>
+            <p>Es una propiedad del font-face para indicar como van a estar las letras de esa fuente</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">font-stretch: condensed|expanded|ultra-expanded|%;</code></pre>
+            <p>Admite 4 opciones: </p>
+            <ul>
+                <li><span class="valor">Condensed</span>: Pone las letras condensadas entre si
+                <li><span class="valor">Expanded</span>: Expande las letras </li>
+                <li><span class="valor">ultra-expanded</span>: Mucho mas expandidas que en el expanded </li>
+                <li><span class="valor">%</span>: Situa las letras con un espacio que se le haya indicado </li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <pre class="line-numbers"><code class="language-css">
+    font-stretch: condensed;
+</code></pre>
+            <p class="condensado">Este parrafo va a estar condesado<br>Esta linea esta pegada</p>
+            <pre class="line-numbers"><code class="language-css">
+    font-stretch: expanded;
+</code></pre>
+<p class="expandido">Este parrafo va a estar expandido<br>Esta linea esta separada</p>
+            <pre class="line-numbers"><code class="language-css">
+    font-stretch: 50%
+</code></pre>
+    <p class="stretch">Este parrafo estara un 50% pegado<br>Esta linea estara ese 50%</p>
+        </article>
+        <article>
+            <h3>font-size-adjust</h3>
+            <p>Indica que el tamaño de la fuente se escoge basandose en las minusculas y no en las mayusculas</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">font-size: numero|none|inherit;</code></pre>
+            <p>Admite dos opciones: </p>
+            <ul>
+                <li><span class="valor">None</span>: Escoge el tamaño indicado en la propiedad font-size
+                <li><span class="valor">Numero</span>:Escoge el tamaño indicado numericamente </li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <pre class="line-numbers"><code class="language-css">
+    font-size-adjust: none;
+</code></pre>
+            <p class="nada">None</p>
+            <pre class="line-numbers"><code class="language-css">
+    font-size-adjust: 0.58;
+</code></pre>
+    <p class="adjust">Adjust</p>
+        </article>
+        <article>
+            <h3>font-kerning</h3>
+            <p>Propiedad que utilizar la informacion kerning de la fuente</p>
+            <h4>Sintaxis</h4>
+            <pre class="line-numbers"><code class="language-css">font-size: auto|normal|none;</code></pre>
+            <p>Admite tres opciones: </p>
+            <ul>
+                <li><span class="valor">auto</span></li>
+                <li><span class="valor">normal</span></li>
+                <li><span class="valor">none</span></li>
+            </ul>
+            <h4>Ejemplos:</h4>
+            <pre class="line-numbers"><code class="language-css">
+    font-kerning: auto;
+</code></pre>
+            <p class="automatico">Este parrafo tiene kerning<br> automatico.</p>
+            <pre class="line-numbers"><code class="language-css">
+    font-kerning: normal;
+</code></pre>
+    <p class="kerning">Este parrafo <br> tiene un kerning normal</p>
+    <pre class="line-numbers"><code class="language-css">
+        font-kerning: none;
+    }</code></pre>
+    <p class="kerning2">Este parrafo <br> no tiene kerning ninguno por lo que este texto va a<br>ajustarse solo</p>
         </article>
     </section>
     </main>
