@@ -49,7 +49,7 @@
 };</code></pre>
             <p>Donde <span class="valor">direction</span> representa la dirección del texto (rtl y ltr) y <span class="valor">unicode_bidi</span> pondremos bidi-override.</p>
             <h4>Ejemplos:</h4>
-            <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test24 {
+            <pre class="line-numbers" data-line="4"><code class="language-css">.fonts_text_effects_test24 {
     width: 300px;
     border: 1px solid #000000;
     direction: rtl;
@@ -63,8 +63,13 @@
             Se puede aplicar diferentes tipos de decoración, como subrayado, tachado, 
             línea sobre el texto, etc.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {text-decoration-propiedad: overline;};</code></pre>
-            <p>Donde propiedad puede tomar estos valores:</p>
+            <pre class="line-numbers"><code class="language-css">p {
+    text-decoration-line: line-through;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 25%;
+};</code></pre>
+            <p>Donde pueden haber estos valores:</p>
             <ul>
                 <li>line (obligatoria): Posición de la línea.<br/>Algunos valores son:</li>
                 <ul>
@@ -122,7 +127,7 @@
             <h3>text-transform</h3>
             <p>Indica que si el texto esta en mayuscula o en minuscula o en capital</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">text-transform: uppercase;</code></pre>
+            <pre class="line-numbers"><code class="language-css">text-transform: uppercase|lowercase|capitalize;</code></pre>
             <p>Admite tres opciones: </p>
             <ul>
                 <li><span class="valor">uppercase</span>: Todo el texto esta en mayuscula.</li>
@@ -229,7 +234,7 @@
             <h3>text-overflow</h3>
             <p>Propiedad que indica el contenido desbordado que no se muestra.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {text-overflow: clip;};</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {text-overflow: clip|ellipsis;};</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes: </p>
             <ul>
                 <li><span class="valor">clip</span>: Este valor recortará el texto.</li>
@@ -279,7 +284,7 @@
             <h3>word-break</h3>
             <p>Propiedad que establece las normas del salto de línea.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {word-break: keep-all;}</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {word-break: keep-all|break-all;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
                 <li><span class="valor">keep-all</span>: Este valor establecerá el salto de línea en los guiones o espacios.</li>
@@ -309,7 +314,7 @@
             <h3>writing-mode</h3>
             <p>Propiedad que establece la orientación del texto.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {writing-mode: horizontal-tb;}</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {writing-mode: horizontal-tb|vertical-rl|vertical-lr|sideways-rl|sideways-lr;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
                 <li><span class="valor">horizontal-tb</span>: Este valor establecerá la orientación de manera horizontal.</li>
@@ -357,7 +362,7 @@
             <p>Propiedad que controla cómo se procesa y renderiza el texto en un elemento. 
                 Tiene varios valores posibles que afectan la calidad y la legibilidad del texto.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {text-rendering: optimizeLegibility;}</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {text-rendering: optimizeSpeed|optimizeLegibility|geometricPrecision;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
                 <li><span class="valor">optimizeSpeed</span>: Se centra en la velocidad de renderización, sacrificando la calidad visual.</li>
@@ -389,7 +394,7 @@
             Puede definir si el texto se mostrará horizontal o verticalmente, y en qué dirección.
             Solo funciona si el writing-mode está puesto como texto vertical.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {text-orientation: upright;}</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {text-orientation: mixed|upright|sideways|sideways-right;}</code></pre>
             <p>Admite un valor, que puede ser uno de los siguientes:</p>
             <ul>
                 <li><span class="valor">mixed</span>: Este valor indica que la orientación del texto es mixta, lo que significa que puede contener tanto texto vertical como horizontal.</li>
@@ -413,7 +418,7 @@
             <p>Propiedad que establece el color de relleno del texto. 
             Es importante tener en cuenta que no todos los navegadores admiten esta propiedad.</p>
             <h4>Sintaxis</h4>
-            <pre class="line-numbers"><code class="language-css">p {-webkit-text-fill-color: #3498db;}</code></pre>
+            <pre class="line-numbers"><code class="language-css">p {-webkit-text-fill-color: black|#000000|rgb(0,0,0);}</code></pre>
             <p>Admite un valor, que puede ser <span class="valor">el nombre del color, su valor hexadecimal o rgb(a)</span></p>
             <h4>Ejemplos:</h4>
             <pre class="line-numbers" data-line="2"><code class="language-css">.fonts_text_effects_test15 {
